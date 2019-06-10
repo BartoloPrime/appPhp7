@@ -39,7 +39,6 @@
 <section class="calculos">
 <h2>Solución</h2>
    <p>La velocidad del satelite es</p><br>
-    <button onclick="calcula_densidad();">Presiona para calcular</button>
 </section>
 <section class="resultado">
 <h2>Resultado:</h2>
