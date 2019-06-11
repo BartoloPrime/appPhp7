@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="css/problemas.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script src="php7/solucion.php"></script>
- 
+    <script type="text/javascript" src="php7/solucion.js">
+
+    </script>
+
 </head>
 <body>
    <section class="wrapper">
     <header>
-      <h1 class="logo"><a href="index.html">IntroJS</a></h1>
+      <h1 class="logo"><a href="index.php">IntroJS</a></h1>
       <nav>
       <ul>
-        <li><a href="index.html" class="current">Inicio</a></li>
-        <li><a href=basicoJS.html>Básica</a></li>
+        <li><a href="index.php" class="current">Inicio</a></li>
+        <li><a href=basicoJS.php>Básica</a></li>
       </ul>
       </nav>
     </header>
@@ -38,12 +40,16 @@
 </section>
 <section class="calculos">
 <h2>Solución</h2>
-   <p>La velocidad del satelite es</p><br>
+   <p>La velocidad del satelite es:<br>
+   (2x3.1416)/88=0.07139983304</p>
 </section>
 <section class="resultado">
 <h2>Resultado:</h2>
-<p>EL resultado es: </p>
-<div id="resultadoA"></div>
+<div id="resultadoA">
+  <script>
+    calcula_densidad();
+  </script>
+</div>
 </section>
 </section>
     <footer class="pie">
