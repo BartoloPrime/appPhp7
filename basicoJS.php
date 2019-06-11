@@ -9,6 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <script type="text/javascript" src="php7/solucion.js">
+    <link type="text/javascript" src="php7/solucion.js">
+    <script type="text/javascript" src="../php7/solucion.js"></script>
+    <script src="php7/solucion.js"></script>
+    <script src="../php7/solucion.js"></script>
 
     </script>
 
