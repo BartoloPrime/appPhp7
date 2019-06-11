@@ -24,11 +24,12 @@
     </header>
 <section id="contenedor">
 <section  class="problema">
+    <h2>Kevin Martinez Gaspar No Control 16091157</2>
   <h2>Problema: Cálcular la velocidad de un satelite que gira siguiendo una orbita</h2>
-  <p>Descripción:</p>
-  <p>Hallar la velocidad angular de un satelite artificial de la tierra que gira siguiendo una orbita circular con periodo de revolucion de 88 minutos</p>
+  <p>Descripción:</p>olucion de 88 minutos</p>
 </section>
 <section class="formulas">
+  <p>Hallar la velocidad angular de un satelite artificial de la tierra que gira siguiendo una orbita circular con periodo de rev
 <h2>Fórmulas</h2>
     W=2pi/T
 </section>
