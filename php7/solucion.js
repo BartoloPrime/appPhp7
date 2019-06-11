@@ -1,4 +1,4 @@
-   
+ 
         function calcula_densidad(){
         var T=88;
         //var radio= 6378e3;
@@ -6,6 +6,7 @@
         //var densidad= masa/volumen;
         var W=(2*Math.PI)/T;
         var d=document.getElementById("resultadoA");
-        d.innerHTML=W+' rad/seg';
+        d.innerHTML='El resultado es: 'W+' rad/seg';
         }
+
     
