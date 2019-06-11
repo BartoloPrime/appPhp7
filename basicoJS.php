@@ -8,13 +8,9 @@
     <link rel="stylesheet" href="css/problemas.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script type="text/javascript" src="php7/solucion.js">
-    <link type="text/javascript" src="php7/solucion.js">
-    <script type="text/javascript" src="../php7/solucion.js"></script>
+    <!--<script type="text/javascript" src="php7/solucion.js">
+    <script type="text/javascript" src="../php7/solucion.js"></script>-->
     <script src="php7/solucion.js"></script>
-    <script src="../php7/solucion.js"></script>
-
-    </script>
 
 </head>
 <body>
@@ -46,15 +42,11 @@
 <h2>Solución</h2>
    <p>La velocidad del satelite es:<br>
    (2x3.1416)/88=0.07139983304</p>
+   <button onclick="calcula_densidad();">Presiona para calcular</button>
 </section>
 <section class="resultado">
 <h2>Resultado:</h2>
-<div id="resultadoA">
-  <script>
-    calcula_densidad();
-  </script>
-</div>
-</section>
+<div id="resultadoA"></div></section>
 </section>
     <footer class="pie">
      Creative Commons versión 3.0 SciSoft 2019
